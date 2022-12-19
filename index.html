@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script defer src="./app.js"></script>
+		<title>To-do list</title>
+	</head>
+	<body class="bg-stone-300">
+		<header class="">
+			<p class="text-4xl font-bold text-center my-5 bg-orange-500 py-2">
+				To-do List
+			</p>
+		</header>
+		<main class="block">
+			<div class="flex justify-center">
+				<input
+					id="input-text"
+					type="text"
+					class="rounded-tl-md rounded-bl-md px-3 py-1 focus:outline-none" />
+				<button
+					id="add-btn"
+					class="border-red-600 rounded-tr-md rounded-br-md bg-green-700 text-white px-3 py-1">
+					Add Task
+				</button>
+			</div>
+			<div class="todoList">
+				<!--<div class="item flex justify-center my-5">
+					<div class="bg-white px-3 py-1 rounded-tl-md rounded-bl-md">
+						Lorem, ipsum dolor sit amet
+					</div>
+					<button
+						class="border-red-600 bg-red-600 text-white px-3 py-1">
+						<i class="fa-solid fa-trash-can"></i>
+					</button>
+					<button
+						class="border-red-600 bg-yellow-600 text-white px-3 py-1">
+						<i class="fa-solid fa-pen-to-square"></i>
+					</button>
+
+					<button
+						class="border-red-600 rounded-tr-md rounded-br-md bg-green-600 text-white px-3 py-1">
+						<i class="fa-solid fa-check"></i>
+					</button>
+				</div>-->
+			</div>
+		</main>
+		<script
+			src="https://kit.fontawesome.com/5a0131f9c1.js"
+			crossorigin="anonymous"></script>
+	</body>
+</html>
